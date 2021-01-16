@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Processor.VoskApi.ConsoleApp", "Processor.VoskApi.ConsoleApp\Processor.VoskApi.ConsoleApp.csproj", "{844E70F9-FC51-4F56-B4F0-D2D862210FA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F859BCC8-C460-4395-827D-F8199038BDDF}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Processor", "Processor\Processor.csproj", "{218C1C87-DCBA-486B-B01D-F07511C55CAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recorder", "Recorder\Recorder.csproj", "{A1178CE3-CBD6-4E7A-AECB-77F8D7DC896B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{844E70F9-FC51-4F56-B4F0-D2D862210FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{844E70F9-FC51-4F56-B4F0-D2D862210FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{844E70F9-FC51-4F56-B4F0-D2D862210FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{844E70F9-FC51-4F56-B4F0-D2D862210FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{218C1C87-DCBA-486B-B01D-F07511C55CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{218C1C87-DCBA-486B-B01D-F07511C55CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{218C1C87-DCBA-486B-B01D-F07511C55CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{218C1C87-DCBA-486B-B01D-F07511C55CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1178CE3-CBD6-4E7A-AECB-77F8D7DC896B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1178CE3-CBD6-4E7A-AECB-77F8D7DC896B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1178CE3-CBD6-4E7A-AECB-77F8D7DC896B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1178CE3-CBD6-4E7A-AECB-77F8D7DC896B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4263C2D7-B0C7-479C-928F-7F209FAB2626}
+	EndGlobalSection
+EndGlobal
