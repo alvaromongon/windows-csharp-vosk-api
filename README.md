@@ -16,10 +16,20 @@ A hacky way of using python based vosk-api from windows using c#
 
 # What about if I want to change the model?
 
-The model is currently part of the source code (Processor project).
-I am using "vosk-model-small-es-0.3" Spanish model.
+The model is currently part of the source code:
+- https://github.com/alvaromongon/windows-csharp-vosk-api/tree/main/Processor/VoskModel
 
-But as far as the python script is able to locate the model, it can be anywhere and be whatever vosk compatible model you want.
+And it gets copied over to the output directory when you build the project.
+
+The script that runs Vosk python is also part of the source code:
+- https://github.com/alvaromongon/windows-csharp-vosk-api/tree/main/Processor/pythonScripts
+
+And it get copied over as well to the output directory.
+The script tries to find the Vosk model in the folder "VoskModel" under the execution path.
+
+As far as the python script is able to locate the model, it can be anywhere and be whatever vosk compatible model you want.
+
+I am using "vosk-model-small-es-0.3" Spanish model.
 
 # How does it work?
 
