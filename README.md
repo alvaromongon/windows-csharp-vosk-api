@@ -1,5 +1,9 @@
+#DEPRECATED
+
 # windows-csharp-vosk-api
 A hacky way of using python based vosk-api from windows using c#
+
+NOTE: You don´t need to use this anymore, vosk-api has a nuget package you can already use from c#.
 
 # Python versions:
 - Python: 3.8.6
@@ -12,7 +16,7 @@ A hacky way of using python based vosk-api from windows using c#
 - Install Vosk python: https://alphacephei.com/vosk/install
 - Ensure Vosk is working running some of the example they provide
 - Review the configuration files located in the Console App project
-- Open the solution in Visual Studio 2019 and compile it (The console app is set to use net5, in case you don�t have it installed) 
+- Open the solution in Visual Studio 2019 and compile it (The console app is set to use net5, in case you don´t have it installed) 
 
 # What about if I want to change the model?
 
