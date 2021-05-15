@@ -1,9 +1,8 @@
 # DEPRECATED
+You don´t need to use this anymore, vosk-api has a nuget package you can already use from c#.
 
 # windows-csharp-vosk-api
 A hacky way of using python based vosk-api from windows using c#
-
-NOTE: You don´t need to use this anymore, vosk-api has a nuget package you can already use from c#.
 
 # Python versions:
 - Python: 3.8.6
